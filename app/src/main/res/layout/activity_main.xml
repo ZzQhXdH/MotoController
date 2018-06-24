@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_height="150px">
+
+        <TextView
+            android:layout_width="150px"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_normal"
+            android:text="OTS"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:id="@+id/id_main_text_view_ots"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="150px"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_normal"
+            android:text="AOCP"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:id="@+id/id_main_text_view_aocp"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="150px"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_normal"
+            android:text="APDF"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:id="@+id/id_main_text_view_apdf"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="150px"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_normal"
+            android:text="BPDF"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:id="@+id/id_main_text_view_bpdf"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="150px"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_normal"
+            android:text="ULVO"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:id="@+id/id_main_text_view_ulvo"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="电机1速度:0%"
+            android:textColor="@android:color/black"
+            android:id="@+id/id_main_text_view_moto1_speed"
+            android:textSize="10sp"
+            />
+
+        <SeekBar
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/id_main_seek_bar_moto1_speed"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_button"
+            android:id="@+id/id_main_button_moto1_cw"
+            android:text="电机1正转"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/id_main_button_moto1_ccw"
+            android:background="@drawable/selector_button"
+            android:text="电机1反转"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/id_main_button_moto1_brake"
+            android:background="@drawable/selector_button"
+            android:text="电机1刹车"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/id_main_button_moto1_release"
+            android:background="@drawable/selector_button"
+            android:text="电机1释放"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="电机2速度:0%"
+            android:textColor="@android:color/black"
+            android:textSize="10sp"
+            android:id="@+id/id_main_text_view_moto2_speed"
+            />
+
+        <SeekBar
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/id_main_seek_bar_moto2_speed"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_button"
+            android:id="@+id/id_main_button_moto2_cw"
+            android:text="电机2正转"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_button"
+            android:id="@+id/id_main_button_moto2_ccw"
+            android:text="电机2反转"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/id_main_button_moto2_brake"
+            android:background="@drawable/selector_button"
+            android:text="电机2刹车"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/id_main_button_moto2_release"
+            android:background="@drawable/selector_button"
+            android:text="电机2释放"/>
+
+    </LinearLayout>
+
+</LinearLayout>

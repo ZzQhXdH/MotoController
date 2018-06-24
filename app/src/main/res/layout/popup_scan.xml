@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="800px"
+    android:layout_height="1000px"
+    android:background="@drawable/shape_popup_scan"
+    android:padding="50px"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_item_progress_bar" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/id_popup_recycler_view"
+        android:layout_weight="1"/>
+
+    <Button
+        android:layout_width="400px"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_button"
+        android:textColor="@android:color/white"
+        android:text="取消"
+        android:textSize="24sp"
+        android:layout_marginTop="50px"
+        android:id="@+id/id_popup_button_cancel"/>
+
+</LinearLayout>

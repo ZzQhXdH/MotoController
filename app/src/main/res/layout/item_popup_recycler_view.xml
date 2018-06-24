@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/shape_item"
+    android:orientation="horizontal"
+    android:layout_height="150px">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:textColor="@android:color/black"
+        android:textSize="10sp"
+        android:text="353454"
+        android:id="@+id/id_item_popup_text_view"
+        android:gravity="center"
+        android:layout_weight="1"/>
+
+    <Button
+        android:layout_width="200px"
+        android:layout_height="120px"
+        android:layout_gravity="center"
+        android:background="@drawable/selector_button"
+        android:text="连接"
+        android:textSize="16sp"
+        android:id="@+id/id_item_popup_button"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
